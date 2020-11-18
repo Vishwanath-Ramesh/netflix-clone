@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
+  "name": "netflix-clone",
   "version": "1.0.0",
-  "description": "A React boilerplate setup with webpack and babel setup",
+  "description": "A Netflix clone app using React",
   "main": "index.js",
   "scripts": {
     "babel": "babel src --out-dir lib",
@@ -24,6 +24,10 @@
   "author": "Vishwanath R",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.21.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
@@ -74,6 +78,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vishwanath-Ramesh/react-webpack-boilerplate.git"
+    "url": "git+https://github.com/Vishwanath-Ramesh/netflix-clone.git"
   }
 }

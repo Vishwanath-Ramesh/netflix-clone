@@ -5,7 +5,9 @@ const instance = axios.create({
   baseURL: serverConfig?.APIDomain ?? '',
   headers: {
     'content-type': 'application/json',
-    'Ocp-Apim-Subscription-Key': serverConfig?.ApimSubscriptionKey ?? '',
+  },
+  params: {
+    api_key: serverConfig.API_KEY,
   },
 })
 

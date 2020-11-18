@@ -1,0 +1,70 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  /* background-position: center center; */
+  background-size: cover;
+  object-fit: contain;
+  height: 80vh;
+  justify-content: center;
+}
+
+.banner__image {
+  object-fit: contain;
+  width: 100%;
+}
+
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: auto;
+  padding: 0rem 2rem;
+  gap: 1rem;
+  width: 56%;
+}
+
+.banner__title {
+  color: #ffffff;
+  font-size: 4rem;
+}
+
+.banner__overview {
+  color: #fff;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  font-size: 1.4vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+.banner__fade {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.5),
+    #111
+  );
+  margin-top: auto;
+}
+
+.banner__actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.banner__content .MuiButtonBase-root {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.banner__content .MuiButtonBase-root:hover {
+  color: #000000;
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+
+.banner__content .MuiButtonBase-root.banner__info {
+  color: #ffffff;
+  background-color: rgba(109, 109, 110, 0.7);
+}

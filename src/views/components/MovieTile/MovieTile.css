@@ -1,0 +1,11 @@
+.movietile {
+  display: flex;
+  border-radius: 4px;
+  width: 100%;
+  object-fit: contain;
+  transition: transform 0.5s;
+}
+
+.movietile:hover {
+  transform: scale(1.2);
+}

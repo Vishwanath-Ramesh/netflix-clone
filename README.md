@@ -1,1 +1,1 @@
-# A React boilerplate setup with webpack and babel setup
+# A Netflix clone app using React
